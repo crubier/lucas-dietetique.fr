@@ -56,7 +56,6 @@ body {
 .content div {
   max-width: 800px;
   text-align:justify;
-  margin-top:30px;
   margin: 30px auto;
 }
 
@@ -84,8 +83,10 @@ a:link {
 img {
   vertical-align:top;
     display: inline-block;
-    max-width:400;
+    max-width:400px;
     max-height:400px;
     width: auto;
     height: auto;
+    margin-top:30px;
+    margin-bottom:30px;
 }
