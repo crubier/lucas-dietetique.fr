@@ -20,6 +20,10 @@ body {
   text-align:center;
 }
 
+#title div {
+  margin-bottom: 10px;
+}
+
 #title-name {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
@@ -32,11 +36,11 @@ body {
   font-weight: normal;
   font-size:200%;
   text-align: center;
-  margin-left:100px;
+  /*margin-left:100px;*/
   color:#c50093;
-  -ms-transform: rotate(-10deg) translate(50px,0); /* IE 9 */
-    -webkit-transform: rotate(-10deg) translate(50px,0); /* Chrome, Safari, Opera */
-    transform: rotate(-10deg) translate(50px,0);
+  -ms-transform: rotate(-10deg) ; /* IE 9 */
+    -webkit-transform: rotate(-10deg) ; /* Chrome, Safari, Opera */
+    transform: rotate(-10deg) ;
 
 }
 
@@ -85,8 +89,7 @@ img {
   vertical-align:top;
     display: inline-block;
     max-width:400px;
-    max-height:400px;
-    width: auto;
+    width: 80%;
     height: auto;
     margin-top:30px;
     margin-bottom:30px;
