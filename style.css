@@ -39,9 +39,15 @@ body {
 
 #content {
   margin-top:200px;
-  text-align:justify;
+  text-align:center;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+#content div {
+  max-width: 800px;
+  text-align:justify;
+  margin: 0 auto;
 }
 
 ul {
