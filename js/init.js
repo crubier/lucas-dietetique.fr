@@ -21,14 +21,14 @@
 
 		var	$window = $(window),
 			$body = $('body');
-			
+
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
-			
+
 			$window.on('load', function() {
 				$body.removeClass('is-loading');
 			});
-			
+
 		// Forms (IE<10).
 			var $form = $('form');
 			if ($form.length > 0) {
@@ -51,10 +51,10 @@
 						})
 						.on('blur', function() {
 							$(this).parent().removeClass('focus');
-						});						
+						});
 
 			}
-			
+
 		// CSS polyfills (IE<9).
 			if (skel.vars.IEVersion < 9)
 				$(':last-child').addClass('last-child');
@@ -65,3 +65,24 @@
 	});
 
 })(jQuery);
+
+
+WebFontConfig = {
+	google: { families: [ 'Roboto:400,100,100italic,300,300italic,400italic:latin,latin-ext', 'Kaushan+Script::latin,latin-ext' ]}
+};
+(function() {
+	var wf = document.createElement('script');
+	wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+		'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+	wf.type = 'text/javascript';
+	wf.async = 'true';
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(wf, s);
+})();
+(function() {
+var css = document.createElement('link');
+css.href = 'http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+css.rel = 'stylesheet';
+css.type = 'text/css';
+document.getElementsByTagName('head')[0].appendChild(css);
+})();
