@@ -15,7 +15,7 @@ author: Edwin Lucas # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: lucas.edwin1@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.lucas-dietetique.fr" # the base hostname & protocol for your site
+url: "http://lucas-dietetique.fr" # the base hostname & protocol for your site
 social:
   #twitter: https://twitter.com/<username>
   #github: https://github.com/<username>
