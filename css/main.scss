@@ -1844,3 +1844,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	// margin: -40px 0px 30px 200px!important;
 	// @include vendor('transform', 'rotate(0deg) scale(1) skew(1deg) translate(0px)');
 }
+
+section.post-content {
+	// margin-top:40px;
+}
