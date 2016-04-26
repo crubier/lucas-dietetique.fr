@@ -11,6 +11,7 @@ description: |
 
   Toulouse
 owner: Edwin Lucas # or company name
+author: Edwin Lucas # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: lucas.edwin1@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
